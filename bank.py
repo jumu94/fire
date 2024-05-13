@@ -1,4 +1,3 @@
-class bank:
    class bank_account:
        def __init__(self, username, password):
            self.username = username
@@ -50,6 +49,7 @@ class bank:
                     amount = float(input("Enter an amount to withdraw :"))
                     account.withdrawal(amount)
                 elif choice == '3':
+                    print("Exit program.")
                     break
                 else:
                     print("invalid Username and Password")
